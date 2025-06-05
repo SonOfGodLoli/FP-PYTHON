@@ -1,4 +1,5 @@
-#Desarrolle el programa q determine el porcentaje de varones y mujeres
+#Desarrolle el programa que determine el porcentaje de varones y de mujeres que hay en un salón de clases.
+
 import os
 os.system("cls")
 
