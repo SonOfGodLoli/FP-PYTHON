@@ -1,3 +1,4 @@
+package Secuenciales;
 
 
 public class Main {
