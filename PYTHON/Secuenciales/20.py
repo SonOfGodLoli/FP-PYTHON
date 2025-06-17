@@ -32,10 +32,11 @@ Dinero = Dinero % 1
 
 
 
-print(D200)
-print(D100)
-print(D50)
-print(D20)
-print(D5)
-print(D2)
-print(D1)
+print(f"Se necesitan {D200} billetes de 200")
+print(f"Se necesitan {D100} billetes de 100")
+print(f"Se necesitan {D50} billetes de 50")
+print(f"Se necesitan {D20} billetes de 20")
+print(f"Se necesitan {D10} billetes de 10")
+print(f"Se necesitan {D5} Monedas de 5")
+print(f"Se necesitan {D2} Monedas de 2")
+print(f"Se necesitan {D1} Monedas de 1")
