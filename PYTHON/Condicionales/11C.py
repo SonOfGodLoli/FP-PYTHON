@@ -13,3 +13,5 @@ elif Num >= 0:
 
 else:
     print("El numero es negativo")
+
+print("positivo") if Num > 0 else print("cero") if Num == 0 else print("negativo")
