@@ -29,9 +29,6 @@ Dinero = Dinero % 2
 D1 = Dinero // 1
 Dinero = Dinero % 1
 
-
-
-
 print(f"Se necesitan {D200} billetes de 200")
 print(f"Se necesitan {D100} billetes de 100")
 print(f"Se necesitan {D50} billetes de 50")
