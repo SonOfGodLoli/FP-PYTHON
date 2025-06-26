@@ -11,14 +11,7 @@ a = int(input("Ingrese el valor de a : "))
 c = int(input("Ingrese el valor de b : "))
 b = int(input("Ingrese el valor de c : "))
 
-if a==0 :
-    print("no es una ecuacion cuadrática.")
-    sys.out()
 
-else:
-    D= math.pow(b,2) - (4*a*c)
-    
-    if D>0:
         
     
 
