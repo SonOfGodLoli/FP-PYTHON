@@ -6,6 +6,7 @@ os.system("cls")
 
 Numero = int(input(" Ingrese un numero de 4 Cifras : "))
 
+
 N1= Numero // 1000
 N2= (Numero // 100) % 10
 N3= (Numero // 10) % 10
