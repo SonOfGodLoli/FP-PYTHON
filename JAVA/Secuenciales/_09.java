@@ -13,7 +13,7 @@ public class _09 {
         System.out.print("Ingrese un numero de 4 cifras positivo : ");
         int N1 = scanner.nextInt();
 
-        int Suma_de_D = (N1 / 1000) + ((N1 / 100) % 10) + ((N1 / 10) % 10) + (N1 % 10);
+        int Suma_de_D = (N1 / 1000) + (((N1 / 100) % 10)*10) + (((N1 / 10) % 10)*100) + ((N1 % 10)*1000);
 
         System.out.println("");
         System.out.println("La suma de los digitos es de " + Suma_de_D+".");
