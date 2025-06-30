@@ -27,3 +27,8 @@ N4= Numero % 10
 Num_inverti = (N4*1000 + N3*100 + N2*10 + N1)
 
 print(f"El numero invertido es {Num_inverti}")
+
+
+#Forma 3
+invertido = str(Numero)[::-1]
+print(invertido)

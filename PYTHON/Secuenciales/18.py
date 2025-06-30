@@ -11,8 +11,16 @@ Total = Cantidad * Precio
 Descuento_1 = Total*0.15
 Descuento_2 = (Total - Descuento_1)*0.15
 
-NA='\033[1;93m'
-N = '\033[0m'
+print(f"El importe de la compra es igual a {Total} soles.")
+print(f"El descuento total es de {Descuento_1+Descuento_2}")
+print(f"El importe a pagar es de {(Total-Descuento_1)-Descuento_2}")
 
-print(f"\nEl importe total es {NA}{Total}{N} Soles, con un descuento de {NA}{Descuento_1}{N} soles, dando el total de {NA}{Total-Descuento_1}{N} Soles, al que se le aplica un 2do Descuento de {NA}{Descuento_2}{N} soles, dando como importe a pagar de {NA}{(Total-Descuento_1)-Descuento_2}{N} Soles.")
+
+
+
+
+# NA='\033[1;93m'
+# N = '\033[0m'
+
+# print(f"\nEl importe total es {NA}{Total}{N} Soles, con un descuento de {NA}{Descuento_1}{N} soles, dando el total de {NA}{Total-Descuento_1}{N} Soles, al que se le aplica un 2do Descuento de {NA}{Descuento_2}{N} soles, dando como importe a pagar de {NA}{(Total-Descuento_1)-Descuento_2}{N} Soles.")
 

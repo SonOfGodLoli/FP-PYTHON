@@ -14,4 +14,13 @@ N2_1 = numero_2 // 100
 N2_2 = (numero_2 // 10) % 10
 N2_3 = numero_2 % 10
 
+# numero_1=(str(numero_1))
+# numero_2=(str(numero_2))
+
+# N1 = numero_2[2] + numero_1[1] + numero_2[0]
+# N2 = numero_1[2] + numero_2[1] + numero_1 [0]
+
+# print(f"Los numeros nuevos son : {N1} y {N2}")
+
 print(f"Los numeros han cambiado a {N2_3}{N1_2}{N2_1} y {N1_3}{N2_2}{N1_1} ")
+
