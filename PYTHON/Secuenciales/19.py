@@ -3,10 +3,10 @@
 import os
 os.system("cls")
 
-Comision = int(input("Ingrese el total de sus ventas en soles : "))
+Total_V = int(input("Ingrese el total de sus ventas en soles : "))
 
 Sueldo_Ba = 500
-Comision_D = (Comision /100) * 9
+Comision_D = (Total_V /100) * 9
 Descuento = (Sueldo_Ba / 100) * 11
 Sueldo_N = (Sueldo_Ba - Descuento) + Comision_D
 Sueldo_Br = Sueldo_Ba + Comision_D
