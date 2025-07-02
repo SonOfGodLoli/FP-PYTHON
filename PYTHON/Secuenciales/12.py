@@ -10,7 +10,7 @@ b = int(input("Ingrese el valor de b : "))
 c = int(input("Ingrese el valor de c : "))
 
 #Discriminante = D = b² - 4ac
-          
+
 D = (b*b) - (4*a*c) # D= math.pow(b , 2) - (4*a*c)
 D < 0 and print("La discriminante es menor que '0' por lo que solo arroja numeros complejos")
 D < 0 and sys.exit(0)

@@ -1,8 +1,4 @@
-// Desarrolle  el  programa  que  calcule  el  área  total  y  el  volumen  de  un  cilindro.  Considere  las siguientes formulas: Área = 2πr(r+h) y Volumen = πr2h. Siendo r el radio y h la altura
-package JAVA.Secuenciales;
-
-import java.text.DecimalFormat;
-import java.util.Scanner;
+package Secuenciales;
 
 public class _06 {
 
