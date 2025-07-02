@@ -1,5 +1,4 @@
 //Desarrolle el programa que lea un número entero y determine la suma de sus cifras. Asumir que el número es positivo y de 4 cifras.
-
 package JAVA.Secuenciales;
 
 import java.util.Scanner;

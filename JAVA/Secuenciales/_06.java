@@ -1,4 +1,4 @@
-package Secuenciales;
+package JAVA.Secuenciales;
 
 public class _06 {
 
