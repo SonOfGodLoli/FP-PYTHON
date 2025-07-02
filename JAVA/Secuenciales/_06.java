@@ -1,5 +1,7 @@
-package Secuenciales;
+package JAVA.Secuenciales;
 
+import java.text.DecimalFormat;
+import java.util.Scanner;
 public class _06 {
 
     public static void main(String[] args) {
