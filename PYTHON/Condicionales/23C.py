@@ -3,32 +3,39 @@
 import os
 os.system("cls")
 
-#forma 1
-def Mat():
-    Mate = int (input("Ingrese la nota de Matemáticas : "))
-    Fisi = int (input("Ingrese la nota de Física : "))
 
-    Propina = (Mate * 1  if Mate<=17 else Mate * 3 ) + (Fisi * 0.50  if Fisi<=15 else Fisi * 2 )
 
-    reloj = (Mate + Fisi) / 2
-    if reloj>=17:
-        print(f"La propina es de {Propina} y su promedio es mayor de 16, se le regalo un reloj")
-        print("")
-        return Mat()
-    else:
-        print(f"La propina es de {Propina} y su promedio es menor de 16, no se le regalo un reloj")
-        print("")
-        return Mat()
-
-Mat()
-
-#Profe forma 2
+#Profe forma 1
 matematica = int(input("Matematica : "))
 fisica = int(input("Fisica : "))
 
-propina = matematica + fisica /2
+propina = matematica + (fisica /2)
 if matematica > 17 : propina += ( matematica - 17) * 2
 if fisica > 15 : propina += ( fisica - 15 ) * 1.5
 
 promedio = (matematica + fisica) / 2
 reloj = "si" if promedio > 16 else "no"
+
+print (f"{propina}")
+print (f"{reloj}")
+
+
+
+#forma 2
+# def Mat():
+#     Mate = int (input("Ingrese la nota de Matemáticas : "))
+#     Fisi = int (input("Ingrese la nota de Física : "))
+
+#     Propina = (Mate * 1  if Mate<=17 else Mate * 3 ) + (Fisi * 0.50  if Fisi<=15 else Fisi * 2 )
+
+#     reloj = (Mate + Fisi) / 2
+#     if reloj>=17:
+#         print(f"La propina es de {Propina} y su promedio es mayor de 16, se le regalo un reloj")
+#         print("")
+#         return Mat()
+#     else:
+#         print(f"La propina es de {Propina} y su promedio es menor de 16, no se le regalo un reloj")
+#         print("")
+#         return Mat()
+
+# Mat()

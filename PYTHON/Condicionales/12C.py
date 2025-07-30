@@ -12,6 +12,23 @@ numero = int(input("Ingrese un numero del 1 al 7 : "))
 # if numero == 6 : print("Sabado")
 # if numero == 7 : print("Domingo")
 # else: print("Error")
+dia = "Lunes"
+if numero == 2:
+    dia = "Martes"
+if numero == 3:
+    dia = "Miercoles"
+if numero == 4:
+    dia = "Jueves"
+if numero == 5:
+    dia = "Viernes"
+if numero == 6:
+    dia = "Sabado"
+if numero == 7:
+    dia = "Domingo"
+if numero>=8:
+    dia = "incorrecto"
+    
+print(f"El dia es {dia}")
 
-dias = ["Lunes","Mates"]
+
 

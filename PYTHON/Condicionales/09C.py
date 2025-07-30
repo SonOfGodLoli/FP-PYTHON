@@ -20,7 +20,7 @@ elif codigo== 104: precio =27
 
 
 compra = precio * unidades
-Descuento = compra * 0.05 if unidades>=11 or unidades<=20 else compra * 0.08 if unidades>=21 and unidades<=30 else compra*0.10 if unidades>=31 else compra* 0.13
+Descuento = compra * 0.05 if unidades<=10 else compra*0.08 if unidades<=20 else compra*0.10 if unidades<=30 else compra*0.13 
 #Descuento*=compra #descuento = descuento*compra
 total = compra-Descuento
 

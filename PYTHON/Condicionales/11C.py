@@ -8,7 +8,7 @@ Num = float(input("Ingrese un numero: "))
 if Num == 0:
     print("El numero es igual a 0")
 
-elif Num >= 0:
+elif Num > 0:
     print("El numero es positivo")
 
 else:
