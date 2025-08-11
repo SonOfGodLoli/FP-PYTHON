@@ -23,12 +23,12 @@ elif categoria == "D":
 
 descuento = 0
 if 14<=promedio<16:
-   descuento = pension*0.10
+    descuento = pension*0.10
 elif 16<=promedio<18:
-   descuento = pension*0.12
+    descuento = pension*0.12
 elif 18<=promedio<=20:
-   descuento = pension*0.15
-   
+    descuento = pension*0.15
+
 print(f"La pension es de {pension} soles")
 print(f"El descuento es de {descuento:.2f} soles")
 print(f"La nueva pension es de {pension-descuento:.2f}")
