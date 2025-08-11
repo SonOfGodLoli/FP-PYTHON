@@ -1,0 +1,1 @@
+# Diseñe el programa que genera la tabla de multiplicar de un número n, tablas del x al y.

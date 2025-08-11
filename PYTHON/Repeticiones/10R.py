@@ -1,0 +1,1 @@
+# Desarrolle el programa que muestre todos los números de 4 cifras que cumplen la condición de que la suma de las cifras pares e igual a la suma de las cifras impares, muestre además la cantidad de números encontrados.

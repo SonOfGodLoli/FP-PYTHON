@@ -1,0 +1,1 @@
+# Un número es primo si tiene únicamente dos divisores: 1 y el mismo. Desarrolle el programa.

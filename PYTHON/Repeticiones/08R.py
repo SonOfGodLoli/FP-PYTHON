@@ -1,0 +1,1 @@
+# Desarrolle el programa que genere la potencia de un número n elevado a la m.

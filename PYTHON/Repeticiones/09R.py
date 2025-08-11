@@ -1,0 +1,1 @@
+# Desarrolle el programa que muestre un rectángulo de asteriscos de altura n y ancho 2n, n >= 4. 

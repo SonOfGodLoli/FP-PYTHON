@@ -1,0 +1,1 @@
+# Diseñe el programa que muestre el Menor, Mayor, Promedio de una lista de 10 números.

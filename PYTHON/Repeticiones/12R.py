@@ -1,0 +1,1 @@
+# Desarrolle el programa que muestre los números de 1 a 100 a razón de 10 números por fila.

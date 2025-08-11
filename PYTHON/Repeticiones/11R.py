@@ -1,0 +1,1 @@
+# Desarrolle el programa que muestre cuántos números capicúas hay de 3 cifras. Un número capicúa se lee igual de izquierda a derecha como de derecha a izquierda.

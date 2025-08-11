@@ -1,0 +1,1 @@
+# Desarrolle el programa que genere la factorial de un número.
